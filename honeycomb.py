@@ -43,7 +43,7 @@ def eigenenergies(delta):
             else:
                 plt.scatter(x,y,color="b")
         plt.axis('off')
-        plt.savefig("lattice.png")
+        # plt.savefig("lattice.png")
         plt.show()
         ploted = True
     
@@ -81,7 +81,7 @@ for k in range(len(es[0])):
     plt.plot(deltas,es.T[k],color="k")
 plt.xlabel("on-site energy offset")
 plt.ylabel("energy")
-plt.savefig("energy.png")
+# plt.savefig("energy.png")
 plt.show()
     
     
