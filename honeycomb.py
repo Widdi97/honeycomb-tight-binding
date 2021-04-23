@@ -77,6 +77,9 @@ es = np.array(es)
 # plt.show()
 for k in range(len(es[0])):
     plt.plot(deltas,es.T[k],color="k")
+plt.xlabel("on-site energy offset")
+plt.ylabel("energy")
+plt.savefig("energy.png")
 plt.show()
     
     
