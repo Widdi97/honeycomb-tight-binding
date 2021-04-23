@@ -42,6 +42,8 @@ def eigenenergies(delta):
                 plt.scatter(x,y,color="r")
             else:
                 plt.scatter(x,y,color="b")
+        plt.axis('off')
+        plt.savefig("lattice.png")
         plt.show()
         ploted = True
     
