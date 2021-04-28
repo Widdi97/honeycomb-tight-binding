@@ -83,6 +83,7 @@ plt.xlabel("on-site energy offset")
 plt.ylabel("energy")
 # plt.savefig("energy.png")
 plt.show()
-    
-    
-    
+
+
+
+
